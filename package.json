@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KyleMassacre/adonis5-pacakge.git"
+    "url": "git+https://github.com/KyleMassacre/adonis5-package.git"
   },
   "keywords": [
     "adonis",
@@ -26,9 +26,9 @@
   "author": "Kyle Ellis",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/KyleMassacre/adonis5-pacakge/issues"
+    "url": "https://github.com/KyleMassacre/adonis5-package/issues"
   },
-  "homepage": "https://github.com/KyleMassacre/adonis5-pacakge#readme",
+  "homepage": "https://github.com/KyleMassacre/adonis5-package#readme",
   "peerDependencies": {
     "@adonisjs/core": "^5.8.5"
   },

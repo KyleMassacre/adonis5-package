@@ -1,0 +1,57 @@
+{
+  "name": "adonis5-package",
+  "version": "1.0.0",
+  "description": "A preset to create an Adonis 5 package",
+  "main": "index.js",
+  "scripts": {
+    "mrm": "mrm --preset=@adonisjs/mrm-preset",
+    "pretest": "npm run lint",
+    "test": "node -r @adonisjs/require-ts/build/register bin/test.ts",
+    "clean": "del-cli build",
+    "compile": "npm run lint && npm run clean && tsc",
+    "build": "npm run compile",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyleMassacre/adonis5-pacakge.git"
+  },
+  "keywords": [
+    "adonis",
+    "adonis",
+    "package",
+    "adonis",
+    "module"
+  ],
+  "author": "Kyle Ellis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KyleMassacre/adonis5-pacakge/issues"
+  },
+  "homepage": "https://github.com/KyleMassacre/adonis5-pacakge#readme",
+  "peerDependencies": {
+    "@adonisjs/core": "^5.8.5"
+  },
+  "peerDependenciesMeta": {},
+  "devDependencies": {
+    "@adonisjs/core": "^5.8.5",
+    "@adonisjs/mrm-preset": "^5.0.3",
+    "@adonisjs/require-ts": "^2.0.12",
+    "@types/node": "^18.6.4",
+    "del-cli": "^5.0.0",
+    "mrm": "^4.0.0",
+    "typescript": "^4.7.4"
+  },
+  "mrmConfig": {
+    "core": false,
+    "license": "MIT",
+    "services": [],
+    "minNodeVersion": "16.13.1",
+    "probotApps": []
+  },
+  "files": [
+    "build/src",
+    "build/index.d.ts",
+    "build/index.js"
+  ]
+}
